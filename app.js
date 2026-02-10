@@ -27,19 +27,19 @@ async function checkWeather(city) {
         const mainweather = data.weather[0].main;
 
         if (mainweather == "Clouds") {
-            weather.src = "./images/cloud.png";
+            weather.src = "./assets/images/cloud.png";
         } 
         else if (mainweather == "Clear") {
-            weather.src = "./images/clear.png";
+            weather.src = "./assets/images/clear.png";
         } 
         else if (mainweather == "Rain") {
-            weather.src = "./images/rain.png";
+            weather.src = "./assets/images/rain.png";
         } 
         else if (mainweather == "Snow") {
-            weather.src = "./images/snow.png";
+            weather.src = "./assets/images/snow.png";
         } 
         else if (mainweather == "Mist") {
-            weather.src = "./images/mist.png";
+            weather.src = "./assets/images/mist.png";
         }
 
         document.querySelector(".weather").style.display = "block";
